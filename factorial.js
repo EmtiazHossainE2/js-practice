@@ -16,7 +16,7 @@ function getFactorial (number){
         factorial = factorial * i ;
         i++
     }
-    return factorial 
+    return factorial ;
 }
 let number = 15 ;
 let factorialResult = getFactorial(number)
