@@ -1,6 +1,6 @@
-const myNumber = -5 ; 
+const myNumber = -78 ; 
 let output = Math.abs(myNumber) ; //the value without regard to whether it is positive or negative 
-// console.log(output);  
+console.log(typeof output);  
 
 const yourNumber = 6.1999 ; 
 //const yourOutput = Math.ceil(yourNumber)  uporer number return kore  
@@ -15,7 +15,7 @@ const yourOutput = Math.round(yourNumber) //Returns a supplied numeric expressio
 
 for(let i = 1 ; i <=20 ; i++){ 
     //20 bar loop chalaici 
-    const ludu = Math.random() * 6 ;
-    const luduOutput = Math.ceil(ludu) ;
+    // const ludu =  ;
+    const luduOutput = Math.round(Math.random() * 6) ;
     console.log(luduOutput);
 }
