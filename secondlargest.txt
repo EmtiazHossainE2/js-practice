@@ -1,0 +1,39 @@
+let fans = ['Billal Abdul Abdul Abdul Hossain', 'Kamrul Hasan Alom Hasan', 'Rony Dey ', 'Arif Ali  Khan', 'Khorshed Alam', 'Sha Abdul Abdul Abdul Hakim', 'Suruz Sah Hasan Al Zaman']
+
+let bigFan = ''; //Billal Abdul Abdul Abdul Hossain = 32
+let senondFan = ''; // Sha Abdul Abdul Abdul Hakim = 27
+for (let i = 0; i < fans.length; i++) {
+  if (fans[i].length > bigFan.length) {
+    senondFan = bigFan;
+    bigFan = fans[i];
+  } else if (fans[i].length > senondFan.length && fans[i].length != bigFan.len
+You11:15 PM
+vai full kn jani aslo nah
+Kazi Bellal11:15 PM
+else if (fans[i].length > senondFan.length && fans[i].length != bigFan.length) {
+    senondFan = fans[i];
+  }
+}
+console.log('My big fan is =', bigFan);
+console.log('Second fan is =', senondFan);
+এটা else এর পরের অংশ
+grg-zuqz-uuv
+
+
+const ages = [34, 67, 98, 32, 13, 80, 78];
+function generateSecondLargest(ages) {
+    let largest = ages[0];
+    let secondLargest = ages[0];
+    for (let i = 0; i < ages.length; i++) {
+        const element = ages[i];
+        if (element > largest) {
+            secondLargest = largest;
+            largest = element;
+        } else if (ages[i] > secondLargest && ages[i] != largest) {
+            secondLargest = ages[i];
+        }
+
+    }
+    return secondLargest;
+}
+console.log(generateSecondLargest(ages));
